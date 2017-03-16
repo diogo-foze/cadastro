@@ -13,7 +13,7 @@ $sql_msg = "SELECT id, nome, email, assunto FROM mensagens_contatos ORDER BY id 
 $resultado_msg = $PDO->prepare($sql_msg);
 $resultado_msg->execute();
 
-require 'head.php';
+require 'commun/head.php';
 if (!empty($_SESSION['sucesso'])) {
     ?>
     <div class="alert alert-success alert-dismissable" role="alert">
@@ -84,5 +84,5 @@ if (!empty($_SESSION['erro'])) {
 </div>
 
 <?php
-require 'footer.php';
+require 'commun/footer.php';
 ?>

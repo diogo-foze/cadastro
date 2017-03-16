@@ -12,7 +12,7 @@ if (empty($id)) {
     exit;
 }
 
-//Remover o contato do banco de dados.
+//Remover o contato do banco de dados
 $PDO = db_connect();
 $sql_msg_contatos = "DELETE FROM mensagens_contatos WHERE id = :id";
 $delete_msg_contato = $PDO->prepare($sql_msg_contatos);

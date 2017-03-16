@@ -51,7 +51,8 @@ CREATE TABLE `usuarios` (
   `nome` varchar(220) NOT NULL,
   `cpf` varchar(220) NOT NULL,
   `usuario` varchar(250) DEFAULT NULL,
-  `senha` varchar(40) DEFAULT NULL
+  `senha` varchar(40) DEFAULT NULL,
+  `email` varchar(220) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -59,7 +60,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `cpf`, `usuario`, `senha`) VALUES
-(1, 'Diogo', '123', 'Diogo', '202cb962ac59075b964b07152d234b70');
+(1, 'Diogo', '123', 'Diogo', '202cb962ac59075b964b07152d234b70','diogo@foze.com.br');
 
 --
 -- Índices de tabelas apagadas

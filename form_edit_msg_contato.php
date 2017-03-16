@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'init.php';
+require 'conn/init.php';
 $titulo = 'Foze - Editar Mensagem';
 $h1 = 'Editar Mensagem';
 //Recuperar o id da URL

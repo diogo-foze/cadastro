@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once 'init.php';
+require_once 'conn/init.php';
 
 //Recuperar o id da URL
 $id = isset($_GET['id']) ? (int) $_GET['id'] : null;

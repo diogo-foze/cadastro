@@ -24,7 +24,7 @@ if (!is_array($resultado_msg_contato)) {
     echo 'Nenhum contato encontrado';
     exit;
 }
-require 'head.php';
+require 'commun/head.php';
 ?>
 <?php
 if (!empty($_SESSION['erro'])) {

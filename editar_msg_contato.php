@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'init.php';
+require_once 'conn/init.php';
 
 // pega os dados do formuário
 $nome = isset($_POST['nome']) ? $_POST['nome'] : null;

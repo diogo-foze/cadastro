@@ -59,7 +59,7 @@ CREATE TABLE `usuarios` (
 -- Fazendo dump de dados para tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `cpf`, `usuario`, `senha`) VALUES
+INSERT INTO `usuarios` (`id`, `nome`, `cpf`, `usuario`, `senha` , `email`) VALUES
 (1, 'Diogo', '123', 'Diogo', '202cb962ac59075b964b07152d234b70','diogo@foze.com.br');
 
 --

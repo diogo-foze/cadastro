@@ -30,6 +30,6 @@ if ($insert_msg_contato->execute()) {
     $_SESSION['sucesso'] = "Mensagem <strong>Cadastrado</strong> com Sucesso!";
     header('Location: index.php');
 } else {
-    $_SESSION['erro'] = "Erro ao Cadastrado!";
+    $_SESSION['erro'] = "Erro ao Cadastrar!";
     header('Location: form_add.php');
 }

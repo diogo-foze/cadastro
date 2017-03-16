@@ -83,5 +83,5 @@ if (!empty($_SESSION['erro'])) {
     </div>
 </form>
 <?php
-require 'footer.php';
+require 'commun/footer.php';
 ?>

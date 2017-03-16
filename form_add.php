@@ -60,7 +60,7 @@ require 'init.php';
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-12">
-                        <a href="index.php"><input type="button" class="btn btn-warning" value="Cancelar"></a>
+                        <!--a href="index.php"><input type="button" class="btn btn-warning" value="Cancelar"></a-->
                         
                         <input type="submit" class="btn btn-success" value="Cadastrar">
                     </div>

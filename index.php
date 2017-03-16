@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'init.php';
+require_once 'conn/init.php';
 $titulo = 'Foze - Mensagens de Contatos';
 $h1 = 'Listar Mensagens de Contato';
 // abre a conexão

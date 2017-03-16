@@ -4,7 +4,7 @@
  */
 function db_connect()
 {
-    $PDO = new PDO('mysql:host=' . CELKE_DB_HOST . ';dbname=' . CELKE_DB_NAME . ';charset=utf8', CELKE_DB_USER, CELKE_DB_PASS);
+    $PDO = new PDO('mysql:host=' . FOZE_DB_HOST . ';dbname=' . FOZE_DB_NAME . ';charset=utf8', FOZE_DB_USER, FOZE_DB_PASS);
   
     return $PDO;
 }

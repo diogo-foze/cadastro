@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'init.php';
+require 'conn/init.php';
 ?>
 <!doctype html>
 <html>
